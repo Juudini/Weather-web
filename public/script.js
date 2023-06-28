@@ -1,4 +1,4 @@
-const apiKey = "95ec01f8b61f542bd3d75bc4a0bf4394";
+const apiKey = "cbc09ea6bb5712300a024b3ad7a2462f";
 
 function getWeatherByCity(city) {
     return axios
