@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Consulta del clima</title>
+        <link rel="stylesheet" href="./src/styles.css" />
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
+            rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <div class="navbar">
+                <h1>Weather App - Juan Debandi</h1>
+                <div class="search-bar">
+                    <input
+                        type="text"
+                        id="input-ciudad"
+                        placeholder="🔎 Search for a City!" />
+                </div>
+            </div>
+        </nav>
+
+        <div id="weather-data" class="container"></div>
+
+        <script type="module" src="./src/index.js"></script>
+    </body>
+</html>
