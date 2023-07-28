@@ -13,21 +13,11 @@ The app displays the following weather information for the requested city:
 -   Humidity percentage
 -   Wind speed
 
-## How to Use
-
-1. Clone the repository to your local machine.
-2. Install the required dependencies by running `npm install` in the project directory.
-3. Start the application by running `npm start` in the project directory.
-4. Open your web browser and navigate to `http://localhost:3000`.
-5. Enter a city name in the input field and click the "Get Weather" button.
-6. The weather information for the entered city will be displayed on the page.
-
 ## Technologies Used
 
 -   JavaScript
 -   HTML
 -   CSS
--   Express.js (backend framework)
 -   Axios (HTTP client for API requests)
 
 ## API Reference
